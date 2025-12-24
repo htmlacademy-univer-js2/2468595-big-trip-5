@@ -4,7 +4,7 @@ import SortView from '../view/sort.js';
 import EventEditFormView from '../view/event-edit-form.js';
 import PointView from '../view/point.js';
 
-import { render, RenderPosition } from '../render.js';  // или '../utils/render.js' — как у тебя в проекте
+import { render, RenderPosition } from '../render.js';// или '../utils/render.js' — как у тебя в проекте
 
 export default class TripPresenter {
   constructor(tripControlsContainer, tripEventsContainer) {
